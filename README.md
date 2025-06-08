@@ -27,18 +27,3 @@ Gotowe do rozszerzenia (np. o notatki, priorytety, tagi)
 📚 Automatyczna dokumentacja API
 
 Swagger (/docs) i ReDoc (/redoc) generowane automatycznie przez FastAPI
-Struktura katalogów:
-
-todo_api/
-├── app/
-│   ├── main.py          # Punkt wejścia
-│   ├── models.py        # Modele SQLAlchemy
-│   ├── schemas.py       # Schematy Pydantic
-│   ├── crud.py          # Logika biznesowa
-│   ├── database.py      # Połączenie z DB
-│   ├── auth.py          # Logowanie, rejestracja
-│   └── routers/         # Endpointy (users, tasks)
-├── tests/               # Testy jednostkowe
-├── requirements.txt     # Zależności
-├── .env                 # Zmienne środowiskowe
-└── Dockerfile           # Obraz aplikacji
